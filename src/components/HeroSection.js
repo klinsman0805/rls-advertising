@@ -7,7 +7,7 @@ import Typical from 'react-typical';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/online-marketing.mp4' autoPlay loop muted />
+      <video src={`${process.env.PUBLIC_URL}/videos/online-marketing.mp4`} autoPlay loop muted />
       <h1>Propel your brands with</h1> <br/><br/><br/>
       <h1><i>RLS Advertising</i> <sup><i class="far fa-copyright"></i></sup>  </h1> 
       <p>We Can Help You To{' '}
