@@ -11,13 +11,13 @@ function AboutUs() {
             <br />
             <div className='about__btn'>
                 <Button
-                className='btns'
-                buttonStyle='btn--outline'
-                buttonSize='btn--large'
+                    className='btns'
+                    buttonStyle='btn--outline'
+                    buttonSize='btn--large'
                 >
                     <span>Find Out More</span>
                 </Button>
-            </div>  
+            </div>
         </div>
     )
 }

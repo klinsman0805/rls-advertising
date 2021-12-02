@@ -1,0 +1,66 @@
+.service-section {
+  padding: 4rem;
+  background-color: #fff;
+  align-items: center;
+  height: 80vh;
+}
+
+.service-section > h1 {
+  color: #242422;
+  margin: 20px;
+  font-weight: 450;
+}
+
+.service-btn {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* table, td, th {
+  border: 1px solid #000;
+} */
+
+table {
+  table-layout: fixed;
+  width: 90%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  padding: 15px;
+}
+
+td {
+  text-align: center;
+}
+
+.second__row {
+  padding-bottom: 2rem;
+  font-weight: bold;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.third__row {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 15px;
+  font-weight: 300;
+  vertical-align: top;
+}
+
+tr {
+  text-align: center;
+  padding: 15px;
+}
+
+.fa-searchengin,
+.fa-lightbulb,
+.fa-mobile-alt {
+  font-size: 32px;
+}

@@ -29,7 +29,8 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <i class='fab fa-typo3' /> &nbsp;
+            {/* <i class='fab fa-typo3' /> */}
+            <img src="/images/RLS-logo2.png" /> &nbsp;
             RLS Advertising
           </Link>
           <div className='menu-icon' onClick={handleClick}>
